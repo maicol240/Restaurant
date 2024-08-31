@@ -5,4 +5,4 @@ const container = document.querySelector("#content");
 
 const home = CreateHome();
 
-content.appendChild(home);
+container.appendChild(home);
