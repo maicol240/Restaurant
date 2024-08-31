@@ -1,0 +1,11 @@
+#home {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: clamp(200px, 80%, 500px);
+}
+
+#home img {
+  width: 40%;
+  margin: 0 auto;
+}

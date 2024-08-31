@@ -10,6 +10,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     clean: true,
   },
+
   devtool: "eval-source-map",
   devServer: {
     watchFiles: ["./src/index.html"],
@@ -17,6 +18,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/index.html",
+      inject: "body",
     }),
   ],
   module: {
