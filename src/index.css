@@ -21,6 +21,10 @@ header {
   gap: 10px;
   margin-bottom: 30px;
 }
+header img {
+  width: 62px;
+  height: 62px;
+}
 
 nav {
   padding: 10px;
