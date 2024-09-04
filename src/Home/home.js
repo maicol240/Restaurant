@@ -2,7 +2,7 @@ import { createContent } from "../helper";
 import pizza from "../Assets/mainpizza.jpg";
 import "./home.css";
 
-export const CreateHome = () => {
+export const loadHome = () => {
   //home Container
   const homeContainer = createContent("div");
   homeContainer.id = "home";
@@ -18,7 +18,7 @@ export const CreateHome = () => {
   const firstText = createContent("p", "This is our signature Margarita Pizza");
 
   //second Text
-  const secondText = createContent("p", "Try it out Today");
+  const secondText = createContent("p", "Try it out Today!");
 
   //Appending contents to home container
   homeContainer.appendChild(heading);
